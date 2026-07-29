@@ -24,3 +24,7 @@ section { min-height: 100vh; padding: 80px 60px; }
 @media (max-width: 900px) {
   section { padding: 60px 24px; }
 }
+
+@media (max-width: 600px) {
+  section { padding: 48px 18px; }
+}
