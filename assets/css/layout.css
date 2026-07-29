@@ -37,6 +37,13 @@ nav {
   background: var(--bg-mid);
 }
 
+.contact-layout {
+  display: grid;
+  grid-template-columns: 1.05fr 0.95fr;
+  gap: 56px;
+  align-items: start;
+}
+
 .skills-grid { display: grid; grid-template-columns: repeat(3, 1fr); gap: 20px; }
 .portfolio-grid { display: grid; grid-template-columns: repeat(3, 1fr); gap: 20px; }
 
